@@ -60,3 +60,11 @@ def wait_for_completion(client, thread_id, run_id, sleep_interval=5):
 
 
 wait_for_completion(client=client, thread_id=thread_id, run_id=run.id)
+
+
+run_step = client.beta.threads.runs.steps.list(
+    thread_id=thread_id,
+    run_id=run.id
+)
+
+print(f"Steps ---> {run_step.data[0]}")
