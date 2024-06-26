@@ -8,7 +8,7 @@ from datetime import datetime
 API_KEY = os.environ.get("SECRET_KEY")
 
 client = openai.OpenAI(api_key=API_KEY)
-model = "gpt-4o"
+model = "gpt-4-turbo"
 
 #== ASSISTANT ==#
 
@@ -16,12 +16,22 @@ COURSE_ASSISTANT = "asst_weTVnAaZ7QaTI5vRQr5uscPp"
 SLIDE_ASSISTANT = "asst_X1FErHWdEjvsJQ0n4svz4OAC"
 
 def main():
-    prompt = input("Enter your prompt: ")
+
+    instructions = input("Enter the instructions for the course: ")
+    audience = input("Enter the audience/style guide: ")
+    length = input("Enter the length of the lesson in minutes (5, 10, 15, 20, 25): ")
+
+    prompt = f"""
+        Instructions: {instructions}
+        Audience/Style Guide: {audience}
+        Length of Lesson: {length} minutes
+    """
+
     thread = client.beta.threads.create(
         messages = [
             {
                 "role" : "user",
-                "content" : """ Create a 5 minute course on "How to build a car" """
+                "content" : prompt
             }
         ]
     )
