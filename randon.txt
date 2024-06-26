@@ -62,7 +62,7 @@
 - **Speaker's Notes:**
   - "Today, Porsche remains at the forefront of automotive innovation, with a keen focus on sustainability as demonstrated by electric models like the Taycan. Porsche continues to symbolize prestige across the globe."
 
-- **Suggested> Image:**
+- **Suggested Image:**
   - Modern Porsche lineup, including the Taycan
 
 ---
@@ -72,3 +72,107 @@
 - **Encourage students to explore further about automotive innovations and the impact of technology on car manufacturing through the lens of Porsche’s history.**
 
 This compact presentation is designed to provide a concise yet comprehensive overview of Porsche for freshman university students, fitting into a 5-minute window while engaging and informative.
+
+**Course Title: Introduction to MIPS Processor Architecture**
+
+---
+
+### Slide 1: Introduction to MIPS Processors
+- **Bullet Points:**
+  - What is MIPS?
+  - Importance in the history of computing.
+  - Overview of today’s discussion.
+
+- **Speaker’s Notes:**
+  - Good day, everyone. Today, we're going to explore the MIPS processor architecture, a notable example of Reduced Instruction Set Computer (RISC) architecture. We'll discuss what MIPS is, its significance, and provide a brief overview of the concepts we'll be covering today, including RISC vs. CISC, datapath designs, and pipelining.
+
+- **Suggested Image:** MIPS logo or a basic diagram of a MIPS processor.
+
+---
+
+### Slide 2: What is MIPS?
+- **Bullet Points:**
+  - MIPS: Microprocessor without Interlocked Pipelined Stages.
+  - Designed by MIPS Technologies.
+  - High-performance RISC architecture.
+
+- **Speaker’s Notes:**
+  - MIPS, which stands for Microprocessor without Interlocked Pipelined Stages, was designed by MIPS Technologies in the 1980s. It is renowned for its simplicity and efficiency, characteristics that typify RISC architectures. This design philosophy focuses on executing a series of small, highly optimized instructions.
+
+- **Suggested Image:** Diagram showing the basic structure of a MIPS processor.
+
+---
+
+### Slide 3: Understanding RISC and CISC
+- **Bullet Points:**
+  - RISC: Reduced Instruction Set Computer.
+  - CISC: Complex Instruction Set Computer.
+  - Key differences and impacts on processing.
+
+- **Speaker’s Notes:**
+  - RISC, or Reduced Instruction Set Computer, simplifies the processor design by using fewer, but more general-purpose instructions. Conversely, CISC, or Complex Instruction Set Computer, uses more complex instructions, potentially reducing software complexity but increasing hardware complexity. MIPS is a prime example of RISC design, emphasizing speed and efficiency.
+
+- **Suggested Image:** Comparative chart of RISC and CISC.
+
+---
+
+### Slide 4: Single Cycle Datapath
+- **Bullet Points:**
+  - Definition of single cycle datapath.
+  - Advantages and limitations.
+
+- **Speaker’s Notes:**
+  - In a single cycle datapath, every instruction completes in one clock cycle. While this simplifies timing and control, it can limit the clock speed since the cycle must be long enough to accommodate the slowest instruction. We'll explore how this affects processor performance.
+
+- **Suggested Image:** Diagram of a single cycle datapath.
+
+---
+
+### Slide 5: Multi Cycle Datapath
+- **Bullet Points:**
+  - Definition of multi cycle datapath.
+  - How it differs from single cycle.
+
+- **Speaker’s Notes:**
+  - A multi cycle datapath breaks instructions into separate steps, each taking one cycle. This allows for shorter cycles and more efficient use of hardware, as different parts of the processor can be used at different times.
+
+- **Suggested Table:** Steps of instruction in multi cycle datapath.
+
+---
+
+### Slide 6: Pipelining in MIPS
+- **Bullet Points:**
+  - Concept of pipelining.
+  - How MIPS implements pipelining.
+  - Advantages of pipelining.
+
+- **Speaker’s Notes:**
+  - Pipelining is a technique where multiple instructions are overlapped in execution. MIPS typically uses a five-stage pipeline: instruction fetch, instruction decode, execute, memory access, and register write-back. This increases instruction throughput and overall efficiency.
+
+- **Suggested Image:** Diagram of MIPS pipelining stages.
+
+---
+
+### Slide 7: General History of MIPS
+- **Bullet Points:**
+  - Development in the 1980s.
+  - Influence on modern computing.
+  - Current applications and legacy.
+
+- **Speaker’s Notes:**
+  - Developed in the 1980s by MIPS Technologies, the MIPS architecture has profoundly influenced modern computing, impacting everything from embedded systems to high-performance servers. Today, MIPS continues to be used widely, including in various applications that require efficient, compact instruction sets.
+
+- **Suggested Image:** Timeline of MIPS development and key milestones.
+
+---
+
+### Quiz Questions: Review and test your understanding
+1. **What does MIPS stand for in MIPS Technologies?**
+2. **Describe one key difference between RISC and CISC architectures.**
+3. **Why might a single cycle datapath limit clock speed in a processor?**
+4. **What is one advantage of using a multi cycle datapath over a single cycle datapath?**
+5. **Name two stages in the MIPS pipelining process.**
+
+Instructor would read these questions aloud, allowing students to answer them either verbally or through a short written test.
+
+This course structure should provide a comprehensive overview of MIPS processors, suitable for sophomore university students and lasting approximately 20 minutes.
