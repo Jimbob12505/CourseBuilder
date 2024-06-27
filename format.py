@@ -130,15 +130,9 @@ Here is the final JSON structure for your lesson:
 ```
 """
 
-formatted = {
-    "title" : "",
-    "subheading" : "beta 1.0",
-}
-
 def create_json_file():
     json_string = unformatted[unformatted.find("{") : unformatted.rindex("}") + 1]
     data = json.loads(json_string)
     return data
 
-data = create_json_file()
 
