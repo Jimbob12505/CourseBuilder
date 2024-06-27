@@ -50,6 +50,7 @@ def main():
     messages = message_response.data
     last_message = messages[0]
     print(last_message.content[0].text.value)
+    return last_message.content[0].text.value
 
 
 if __name__ == "__main__":

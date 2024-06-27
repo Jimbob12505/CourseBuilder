@@ -1,0 +1,33 @@
+{
+    "title_page" : [
+        {
+            "title" : ""
+        }
+    ],
+    "Slides" : [
+        {
+            "slide_title" : "",
+            "bullet_points" : [
+                {
+                    "1" : "",
+                    "2" : "",
+                    "3" : ""
+                }
+            ],
+            "image" : "",
+            "speakers_note" : ""
+        },
+        {
+            "slide_title" : "",
+            "bullet_points" : [
+                {
+                    "1" : "",
+                    "2" : "",
+                    "3" : ""
+                }
+            ],
+            "image" : "",
+            "speakers_note" : ""
+        }
+    ]
+}
